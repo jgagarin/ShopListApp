@@ -90,3 +90,61 @@ span.h1-span{
     
     
 }
+ul.items-list{
+    list-style-type: none;
+    max-width: 500px;
+    margin: 1em auto;
+    padding: 0;
+}
+li.items{
+    background: #eee;
+    height: 3.5em;
+    width: 28em;
+    padding: 10px 10px 5px;
+    border-top: 5px solid lightblue;
+    margin-bottom: 10px;
+}
+li.items:after{
+    content: ' ';
+    display: table;
+    clear:both;
+}
+li.items > span {
+    float: left;
+}
+li.items span{
+    display:block;
+    font-size: 1.25em;
+}
+div.remove-item{
+    float: right;
+    margin-right: 15px;
+    color: red;
+}
+div.remove-item:hover{
+    background: red;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+    cursor: pointer;
+}
+div.check{
+    float:right;
+    margin-right: 40px;
+    color: green;
+}
+div.check:hover{
+    background: green;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+    cursor: pointer;
+}
