@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/notebook_@2X.png);
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+.main-header{
+    width: 100%;
+    padding: 5em 0;
+    background-image: url(../img/grey_wash_wall.png);
+    color: #fff;
+}
+
+.main-header h1 {
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    font-weight:700;
+    text-align: center;
+    border-bottom: 10px solid black;
+    width: 4em;
+    margin: 0 auto;
+}
+span.h1-span{
+    font-weight:300;
+}
+
+.main-header h2{
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-align:center;
+    margin-top: 1em;
+}
+
+/* instructions section */
+
+.instructions h2{
+    font-size: 2em;
+    text-align: center;
+}
+.instructions p {
+    width:70%;
+    margin:0.5em auto;
+    text-align: center;
+}
+.instructions hr {
+    width: 65%;
+    margin: 2em auto;
+}
+
+/* list area */
+.list{
+    width: 100%;
+    padding: 4em 0;
+}
+.input-area{
+    width:50%;
+    margin:0 auto;
+    text-align:center;
+}
+.input-area:after{
+    content: ' ';
+    display: table;
+    clear: both;
+}
+.input-area input {
+    height: 3em;
+    width: 15em;
+    display:inline-block;
+    
+}
+.input-area button{
+    height: 3em;
+    width: 3em;
+    font-size: 1rem;
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 0;
+    margin-left: 1em;
+    display:inline-block;
+    
+    
+}
