@@ -6,6 +6,7 @@ $(document).ready(function(){
             var itemVal = $('#textbox').val();
         var itemText = '<li class="items active"><span>'+itemVal+'</span><div class="remove-item"><span>✗</span></div>'+'<div class="check"><span >✔</span></div></li>';
         $('.items-list').append(itemText);
+        $('#textbox').val(' ');    
         }
     });
     //add items with click
@@ -13,6 +14,7 @@ $(document).ready(function(){
         var itemVal = $('#textbox').val();
         var itemText = '<li class="items active"><span>'+itemVal+'</span><div class="remove-item"><span>✗</span></div>'+'<div class="check"><span >✔</span></div></li>';
         $('.items-list').append(itemText);
+        $('#textbox').val(' ');
     });
     
     //remove items with click
