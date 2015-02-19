@@ -121,6 +121,7 @@ li.items:after{
 }
 li.items > span {
     float: left;
+    text-transform: capitalize;
 }
 li.items span{
     display:block;
