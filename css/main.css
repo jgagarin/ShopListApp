@@ -101,8 +101,18 @@ li.items{
     height: 3.5em;
     width: 28em;
     padding: 10px 10px 5px;
-    border-top: 5px solid lightblue;
+    
     margin-bottom: 10px;
+    position: relative;
+}
+.active{
+    border-top: 5px solid lightblue;
+}
+.done{
+    border-top: 5px solid grey;
+}
+li.done > span{
+    text-decoration: line-through;
 }
 li.items:after{
     content: ' ';
@@ -117,9 +127,9 @@ li.items span{
     font-size: 1.25em;
 }
 div.remove-item{
-    float: right;
-    margin-right: 15px;
+    right: 30px;
     color: red;
+    position: absolute;
 }
 div.remove-item:hover{
     background: red;
@@ -133,9 +143,9 @@ div.remove-item:hover{
     cursor: pointer;
 }
 div.check{
-    float:right;
-    margin-right: 40px;
+    right: 80px;
     color: green;
+    position: absolute
 }
 div.check:hover{
     background: green;
